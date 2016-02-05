@@ -1,0 +1,7 @@
+% -*-Erlang-*-
+{application, riak_csi, 
+ [ {description, ""}, 
+   {vsn, "0.1"}, 
+   {modules, [riak_csi]}, 
+   {registered, []}, 
+   {applications, [kernel,stdlib, erl_csi]}]}.
