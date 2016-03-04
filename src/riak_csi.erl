@@ -1,6 +1,6 @@
 -module(riak_csi).
 
-%% > erl_csi:start([]).
+%% > erl_csi:start().
 %% > RootDir = "/Users/th/gitrepos/basho/riak_ee/rel/riak/lib".
 %% > erl_csi:add_all_apps_in_dir(RootDir).
 %% > erl_csi:set_ignored_apps(riak_csi:ignore_apps()).
